@@ -74,3 +74,7 @@ Things v3 changed:
 
 After designing v3 I decided to start printing some more copies of if, and half an hour in I decided to go check on the print, but I was sadly greeted with a spaghetti monster (A term used to describe a failed print and where the result looks like in the picture below). This took a good half an hour to clean up. \
 ![spaghetti_monster.png](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/0e00ff17-89b9-4556-85c4-27bd5be7f0f2)
+
+Attempt two was successful! \
+![IMG20231007191150](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/e7e2bdd6-8bde-4202-a689-1fb1f50598dc)
+
