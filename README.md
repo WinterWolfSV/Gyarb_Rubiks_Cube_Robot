@@ -34,7 +34,24 @@ Today I have finally started working on the robot again, since I for the past 2 
 ## 17 September 2023
 Time spent ~1 hour
 
-Today I assembled the frame and decided to revert back to my original idea with the motors on the sides, because what I didn't think about last night was that the corners have 4 oposite sides, but the cube has 6 oposite sides. This just makes the entire process harder, and at least for v1 I will keep it easy. That said, I might concider other shapes in future versions. After taking the picture I put some harder plastics on the side to allow for the motots to be attached to it, but it ended up not being structurally sound enough. My plan is to either print some plates to put on the sides, or use alternatives that don't require my printer to print for 12 hours. 
+Today I assembled the frame and decided to revert back to my original idea with the motors on the sides, because what I didn't think about last night was that the corners have 4 oposite sides, but the cube has 6 oposite sides. This just makes the entire process harder, and at least for v1 I will keep it easy. That said, I might consider other shapes in future versions. After taking the picture I put some harder plastics on the side to allow for the motots to be attached to it, but it ended up not being structurally sound enough. My plan is to either print some plates to put on the sides, or use alternatives that don't require my printer to print for 12 hours. 
 
 ![IMG20230917150637](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/f270f309-9594-4746-895a-3cfe06216365)
 
+## 21 September 2023
+Time spent ~1 hour
+
+I researched which screws I should buy to connect the motors to the frame, and ended up buying [this](https://www.amazon.se/dp/B08T92LSCM?psc=1&ref=ppx_yo2ov_dt_b_product_details) set of 320 screws in various sizes. The screws I need are m3, but while loking at the alternatives, this seemed like the best deal and it includes enough m3 screws for this project.
+
+## 28 September 2023
+Time spent ~2 hours
+
+Today I designed and printed v1 of the bracket for the motors. It was a success in that the holes matched up and I had a good idea of how to connect the motors to the frame, but it really wasn't structually sound enough for my liking. For future versions I will add more support and make the plastic thicker to account for the weight it has to cary.
+
+![IMG20230928000159](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/d2b16195-79ef-4112-8771-712481b41703)
+
+## 2 Oktober 2023
+Time spent ~ 30 minutes
+
+The screws I ordered arrived today.\
+![image](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/3bbfa070-8581-4241-ba14-e4de4bf8dbe6)
