@@ -57,7 +57,7 @@ The screws I ordered arrived today.\
 ![image](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/3bbfa070-8581-4241-ba14-e4de4bf8dbe6)
 
 ## 07 Oktober 2023
-Time spent ~ 4 hours
+Time spent ~ 7 hours
 
 Today I designed and printed v2 and v3 of the "motor holding brackets", the plastic pieces I use to connect the motors to the frame. v2 was a complete redesign of the previous version, firstly because I forgot to save it when closing it last time, and secondly because v1 had some serious issues.\
 Things v2 changed:
@@ -78,3 +78,5 @@ After designing v3 I decided to start printing some more copies of if, and half 
 Attempt two was successful! \
 ![IMG20231007191150](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/e7e2bdd6-8bde-4202-a689-1fb1f50598dc)
 
+I learnt about how to get the steppers to function. What I realised, is that I only need two pins per driver, which is a total of 10 pins for all the motors. This means that I would be able to use a raspberry pi pico instead of an arduino, to both add wifi to the build and in case of an accident it is cheaper to replace a pi pico than an arduino.
+![IMG20231007232241](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/10e971b2-4ffd-4581-929a-97924046642c)
