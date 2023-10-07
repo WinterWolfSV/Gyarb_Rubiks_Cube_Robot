@@ -48,10 +48,29 @@ Time spent ~2 hours
 
 Today I designed and printed v1 of the bracket for the motors. It was a success in that the holes matched up and I had a good idea of how to connect the motors to the frame, but it really wasn't structually sound enough for my liking. For future versions I will add more support and make the plastic thicker to account for the weight it has to cary.
 
-![IMG20230928000159](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/d2b16195-79ef-4112-8771-712481b41703)
+![V1](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/d2b16195-79ef-4112-8771-712481b41703)
 
 ## 2 Oktober 2023
 Time spent ~ 30 minutes
 
 The screws I ordered arrived today.\
 ![image](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/3bbfa070-8581-4241-ba14-e4de4bf8dbe6)
+
+## 07 Oktober 2023
+Time spent ~ 4 hours
+
+Today I designed and printed v2 and v3 of the "motor holding brackets", the plastic pieces I use to connect the motors to the frame. v2 was a complete redesign of the previous version, firstly because I forgot to save it when closing it last time, and secondly because v1 had some serious issues.\
+Things v2 changed:
+- Made the plastic piece be 5mm thick in comparasion to 1-2mm.
+- Changed hole size for outer screws to 3mm
+- Made design look better
+- Removed plastic in between "support bars" \
+![V2](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/d38fd153-d5b1-4d35-b94c-696327d1827f)
+
+Things v3 changed:
+- Shrunk it a tiny little bit because v2 had the holes outside the frame
+
+![rn_image_picker_lib_temp_63d1bec7-d2c1-4f49-83f0-a2f5360712a9](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/16baa8c6-66db-448c-af55-ae4f4e2eb54d)
+
+After designing v3 I decided to start printing some more copies of if, and half an hour in I decided to go check on the print, but I was sadly greeted with a spaghetti monster (A term used to describe a failed print and where the result looks like in the picture below). This took a good half an hour to clean up. \
+![spaghetti_monster.png](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/0e00ff17-89b9-4556-85c4-27bd5be7f0f2)
