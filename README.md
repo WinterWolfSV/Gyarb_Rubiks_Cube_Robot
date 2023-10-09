@@ -80,3 +80,13 @@ Attempt two was successful! \
 
 I learnt about how to get the steppers to function. What I realised, is that I only need two pins per driver, which is a total of 10 pins for all the motors. This means that I would be able to use a raspberry pi pico instead of an arduino, to both add wifi to the build and in case of an accident it is cheaper to replace a pi pico than an arduino.
 ![IMG20231007232241](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/10e971b2-4ffd-4581-929a-97924046642c)
+
+## 8 Oktober 2023
+Time spent ~ 6 hours
+
+Today I spent a buch of time working on the electronics of the robot. I started with creating my own jumper wires since I didn't have any laying around. I did this by cutting some cables I took from a computer, and attaching pins to them on both ends. I made 20 of them. Afterwards I wired everything up on a breadboard where I put all the stepper drivers and connected them so I can control them from my arduino. The current setup requires two cables per controller as well as 3 wires for the step resolution and one wire for disable. I can also connect the ground and 5v pins to the arduino and the motor driver board if I want them to all run of a single power supply. Aditionally I wrote some code to be able to control the motors sequentially, and verified that all the motors and controllers worked as they should. For the future I want to add disable wires (wires to turn motors off) to each and every driver, something that both saves energy and also cuts down a bunch on the noise since only one motor is running at a time.
+
+![IMG20231008110311](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/7d358dd7-be7d-4cb4-bfff-da5b3ac019cc)
+![7c198e07-fe6d-41b1-ba26-e7d25685b0f5](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/982c1b61-25aa-4201-b0cd-51262fe03b1b)
+https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/b888f440-e0be-423b-814d-5e9354d63a23
+
