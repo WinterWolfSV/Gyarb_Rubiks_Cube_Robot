@@ -88,5 +88,19 @@ Today I spent a buch of time working on the electronics of the robot. I started 
 
 ![IMG20231008110311](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/7d358dd7-be7d-4cb4-bfff-da5b3ac019cc)
 ![7c198e07-fe6d-41b1-ba26-e7d25685b0f5](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/982c1b61-25aa-4201-b0cd-51262fe03b1b)
+
 https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/b888f440-e0be-423b-814d-5e9354d63a23
+
+## 14/15 Oktober 2023
+Time spent ~ 5 hours
+
+Over the course of this weekend, I created a mockup of the machine in wokwi where I could emulate the arduino and run code on it. But because I forgot to save, a few hours of work went undone after the battery in my laptop died. That said, I know my idea and it's code should in theory work now. I'll have to fix my code and apply it to the actual robot soon.
+![image](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/123de1f3-c9d4-4449-8bf2-fa18fc154895)
+
+## 28 Oktober 2023
+Time spent ~ 3 hours
+
+Today I finished the design of the cube arms and assembled them onto the robot. The cube is now held in place and connected directly to the motors. One of the "hands" had its fingers break of, so I printed new ones at 215 degrees celcius instead of 210, and they came out a lot stronger (it seems at least). I need to get another motor for the 6th side, but for now, I'll have to modify the algorithm to only use 5 sides of the cube instead of 6. The next time I sit down with the cube solver, I will add all the electronics and hook everything up and start writing some code to make it solve the cube. 
+![image](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/0ab07002-c06d-4756-ad3c-c75fd5039356)
+![image](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/98c386b1-4c59-4dff-acda-09e27a6d0ea4)
 
