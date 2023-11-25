@@ -115,7 +115,16 @@ Another issue I ran into is that the library I was going to use to solve the cub
 https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/a9712651-102b-445a-ad5f-1fee31fa6e93
 
 ## 14 November 2023
-Time spent 2 hours
+Time spent ~ 2 hours
 
 Today is another day. I decided to ignore the problems from last time, and move on to another part that also needs doing. Essentially I have another stepper motor from an old printer I took apart, but I am missing a driver for it. My previous plan was to build my own driver with a ti-uln2003a ic, but upon further research I realized that I could only make a driver for an unipolar stepper motor, but I have a bipolar one from the printer. This means I have to purchase another stepper driver for this project. I decided to just solder on some pins to the motor to verify that it does indeed work. I hooked it up to my breadboard and tried it out. At first it didn't seem to work, but after lowering the speed to 100rpm, I got it turning. I need to order a stepper driver, allthough I am not sure if I should go with a4988 drivers again or if I should pay twice the amount and buy the tmc2208 ones.
 ![IMG20231118162649](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/67c175ac-b622-468c-8407-97a429b1bacb)
+
+
+## 25 November 2023
+Time spent ~ 2 hours
+
+Today I worked on the connections for the printer motor, and I modified the design to fit it. My first attempt at printing it resulted in a spagetthi monster (again), but the second attmpt turned out okay. In some absurd way, the first version actually worked just as I wanted it, so there won't be a v2.
+![image](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/25be4178-8dd2-49d3-8139-2107644ef001)
+![image](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/30e77747-e519-45ac-be45-09f1b815aeb1)
+![image](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/3830d8a3-39b4-4ff5-8934-b8d5c7de48e8)
