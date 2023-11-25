@@ -111,6 +111,7 @@ Today I attempted to write some code to quote "solve the cube". Well, that didn'
 - Using another driver like the tmc2208 which might disable the steppers faster.
 - Lowering the rotation speed and increasing the torque.
 Another issue I ran into is that the library I was going to use to solve the cube is ussing an old version of python and is incompatible with the version I am running. One may think that the solution is easy, just downgrade to a previous version of python then. Unfortunately that isn't possible because the library I am using to communicate with the arduino is for a newer version of python. Regardless, this is a problem for another day.
+
 https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/a9712651-102b-445a-ad5f-1fee31fa6e93
 
 ## 14 November 2023
