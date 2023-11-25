@@ -104,3 +104,17 @@ Today I finished the design of the cube arms and assembled them onto the robot. 
 ![image](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/0ab07002-c06d-4756-ad3c-c75fd5039356)
 ![image](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/98c386b1-4c59-4dff-acda-09e27a6d0ea4)
 
+## 5 November 2023
+Time spent ~ 4 hours
+
+Today I attempted to write some code to quote "solve the cube". Well, that didn't go as planned. I got some code up and running that lets me use cube notations to control the motor movements, but there were some issues. These issues were as one can see in the video, that the motors aren't always able to turn and they just make an unpleasant sound without rotating the cube. I believe it has something to do with the stepper drivers (a4988) still powering the other motors, holding them in place at a wrong angle, blocking movements from the motor I am trying to turn. Two solutions I can see to this problem are:
+- Using another driver like the tmc2208 which might disable the steppers faster.
+- Lowering the rotation speed and increasing the torque.
+Another issue I ran into is that the library I was going to use to solve the cube is ussing an old version of python and is incompatible with the version I am running. One may think that the solution is easy, just downgrade to a previous version of python then. Unfortunately that isn't possible because the library I am using to communicate with the arduino is for a newer version of python. Regardless, this is a problem for another day.
+https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/a9712651-102b-445a-ad5f-1fee31fa6e93
+
+## 14 November 2023
+Time spent 2 hours
+
+Today is another day. I decided to ignore the problems from last time, and move on to another part that also needs doing. Essentially I have another stepper motor from an old printer I took apart, but I am missing a driver for it. My previous plan was to build my own driver with a ti-uln2003a ic, but upon further research I realized that I could only make a driver for an unipolar stepper motor, but I have a bipolar one from the printer. This means I have to purchase another stepper driver for this project. I decided to just solder on some pins to the motor to verify that it does indeed work. I hooked it up to my breadboard and tried it out. At first it didn't seem to work, but after lowering the speed to 100rpm, I got it turning. I need to order a stepper driver, allthough I am not sure if I should go with a4988 drivers again or if I should pay twice the amount and buy the tmc2208 ones.
+![IMG20231118162649](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/67c175ac-b622-468c-8407-97a429b1bacb)
