@@ -137,3 +137,20 @@ Today I ran into the first major hickup in this project. It started with me reci
 Regarding what I did today, I hooked one of the working drivers up to the arduino and ~~wrote~~ stole some basic code that makes the motor turn for an arbitrary number of steps. Steps. Steps bring me to the next problem I have with this driver. I genuinly don't know what the steps mean in the context of this driver, as on the product description for the motor, it says that 200 steps is one full rotation, but I need to set the steps variable to 1600 to get about one full rotation, but it isn't excactly one full rotation either, and the distance varies. I am hoping this can be accounted for in code. As 1600/200 is 8, it could be that to rotate one step, the driver needs 8 microsteps, but this is also weird as I've understood it as if the tmc2208 generates a 128 or 256 step sin-wave. Actually, looking at 256, that is 2^8 which could explain the steps*8 formula. Either way, this is a rather small problem and I think working around it shouldn't be too hard. \
 
 https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/9dd510fd-df49-4be2-b0ba-65b2ae07234a
+
+
+## 10 December 2023
+Time spent ~ 3 hours
+
+Today I hooked all the new drivers up to the arduino and configured the code to work with the new setup. I also made new jumper wires (first photo) since I was running out of them.\
+Some issues I ran into:
+- I forgot to hook up the micro stepping control for the a9488 drivers, but I realized this after a few minutes and hooking them up resolved the issue.
+- The cube was somewhat abused (second picture) as I was playing around with the motors and this resulted in some of the hands that hold the cube breaking and falling out. I have plans on revisiting the design for the connection between the motors and the cube in a future revision.
+- As I was feeling pretty done for the day, I decided to just test all the drivers and their configurations again before wrapping up. As I was doing this, the second driver just stopped working and I tried troubleshooting my connections. I couldn't pinpoint the issue and was afraid that the driver had stopped working. I switched it out for another driver and it started working. Then I tried switching it back to the old driver, and that didn't work. On top of that the third driver also stopped working which was very confusing as I hadn't to my knowledge done anything that would kill it (i.e. no high voltages, no bad connections etc). I wanted to just verify the state of the drivers for a third time, and lo and behold, all of the drivers just worked. I suppose it is another case where electronics just need to be rebooted sometimes.
+Things I will do in the future:
+- Build a better looking (and square) frame for the robot.
+- Revisit the design for the cube holding arms.
+
+![IMG20231209183227](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/f4369732-3c46-4f83-89bd-a6e8892d3d2f)
+![IMG20231210135948](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/6e2e3a5c-6562-4962-8862-2669723b8302)
+
