@@ -153,4 +153,5 @@ Things I will do in the future:
 
 ![IMG20231209183227](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/f4369732-3c46-4f83-89bd-a6e8892d3d2f)
 ![IMG20231210135948](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/6e2e3a5c-6562-4962-8862-2669723b8302)
+![IMG20231210143127](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/eb7a7b13-5574-4a39-b34e-b68e915e4518)
 
