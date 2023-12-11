@@ -104,3 +104,54 @@ Today I finished the design of the cube arms and assembled them onto the robot. 
 ![image](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/0ab07002-c06d-4756-ad3c-c75fd5039356)
 ![image](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/98c386b1-4c59-4dff-acda-09e27a6d0ea4)
 
+## 5 November 2023
+Time spent ~ 4 hours
+
+Today I attempted to write some code to quote "solve the cube". Well, that didn't go as planned. I got some code up and running that lets me use cube notations to control the motor movements, but there were some issues. These issues were as one can see in the video, that the motors aren't always able to turn and they just make an unpleasant sound without rotating the cube. I believe it has something to do with the stepper drivers (a4988) still powering the other motors, holding them in place at a wrong angle, blocking movements from the motor I am trying to turn. Two solutions I can see to this problem are:
+- Using another driver like the tmc2208 which might disable the steppers faster.
+- Lowering the rotation speed and increasing the torque.
+Another issue I ran into is that the library I was going to use to solve the cube is ussing an old version of python and is incompatible with the version I am running. One may think that the solution is easy, just downgrade to a previous version of python then. Unfortunately that isn't possible because the library I am using to communicate with the arduino is for a newer version of python. Regardless, this is a problem for another day.
+
+https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/a9712651-102b-445a-ad5f-1fee31fa6e93
+
+## 14 November 2023
+Time spent ~ 2 hours
+
+Today is another day. I decided to ignore the problems from last time, and move on to another part that also needs doing. Essentially I have another stepper motor from an old printer I took apart, but I am missing a driver for it. My previous plan was to build my own driver with a ti-uln2003a ic, but upon further research I realized that I could only make a driver for an unipolar stepper motor, but I have a bipolar one from the printer. This means I have to purchase another stepper driver for this project. I decided to just solder on some pins to the motor to verify that it does indeed work. I hooked it up to my breadboard and tried it out. At first it didn't seem to work, but after lowering the speed to 100rpm, I got it turning. I need to order a stepper driver, allthough I am not sure if I should go with a4988 drivers again or if I should pay twice the amount and buy the tmc2208 ones.
+![IMG20231118162649](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/67c175ac-b622-468c-8407-97a429b1bacb)
+
+
+## 25 November 2023
+Time spent ~ 2 hours
+
+Today I worked on the connections for the printer motor, and I modified the design to fit it. My first attempt at printing it resulted in a spagetthi monster (again), but the second attmpt turned out okay. In some absurd way, the first version actually worked just as I wanted it, so there won't be a v2.
+![image](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/25be4178-8dd2-49d3-8139-2107644ef001)
+![image](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/30e77747-e519-45ac-be45-09f1b815aeb1)
+![image](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/3830d8a3-39b4-4ff5-8934-b8d5c7de48e8)
+
+
+## 9 December 2023
+Time spent ~ 3 hours
+
+Today I ran into the first major hickup in this project. It started with me recieving the tmc2208 drivers I ordered from amazon. I had heard that they would be a drop in place replacement for the a4988 I have previously used, but this proved to not be the case. After about 2 hours of debugging and taking a multi-hour break to think about something else, I realized that the two of the drivers I recieved were defective. This means that I still have three working tmc2208 drivers and can use them for the project, but to replace the broken ones I will have to use the a9488 drivers I have from before. This is generally still a positive outcome as I now have 6 < drivers and can have one motor per side, whereas previously I was limited to just 5. Additionally one of the problems I've had was that the motor is still powered for about a second after getting the signal to turn off, and this has resulted in the robot locking up while attempting to solve it with higher speeds. The new drivers turn off instantly as soon as the enable pin is set to high, and this should hopefully allow me to run the robot at somewhat higher speeds than what I was previously able to, but mainly just a lot more reliably.\
+Regarding what I did today, I hooked one of the working drivers up to the arduino and ~~wrote~~ stole some basic code that makes the motor turn for an arbitrary number of steps. Steps. Steps bring me to the next problem I have with this driver. I genuinly don't know what the steps mean in the context of this driver, as on the product description for the motor, it says that 200 steps is one full rotation, but I need to set the steps variable to 1600 to get about one full rotation, but it isn't excactly one full rotation either, and the distance varies. I am hoping this can be accounted for in code. As 1600/200 is 8, it could be that to rotate one step, the driver needs 8 microsteps, but this is also weird as I've understood it as if the tmc2208 generates a 128 or 256 step sin-wave. Actually, looking at 256, that is 2^8 which could explain the steps*8 formula. Either way, this is a rather small problem and I think working around it shouldn't be too hard. \
+
+https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/9dd510fd-df49-4be2-b0ba-65b2ae07234a
+
+
+## 10 December 2023
+Time spent ~ 3 hours
+
+Today I hooked all the new drivers up to the arduino and configured the code to work with the new setup. I also made new jumper wires (first photo) since I was running out of them.\
+Some issues I ran into:
+- I forgot to hook up the micro stepping control for the a9488 drivers, but I realized this after a few minutes and hooking them up resolved the issue.
+- The cube was somewhat abused (second picture) as I was playing around with the motors and this resulted in some of the hands that hold the cube breaking and falling out. I have plans on revisiting the design for the connection between the motors and the cube in a future revision.
+- As I was feeling pretty done for the day, I decided to just test all the drivers and their configurations again before wrapping up. As I was doing this, the second driver just stopped working and I tried troubleshooting my connections. I couldn't pinpoint the issue and was afraid that the driver had stopped working. I switched it out for another driver and it started working. Then I tried switching it back to the old driver, and that didn't work. On top of that the third driver also stopped working which was very confusing as I hadn't to my knowledge done anything that would kill it (i.e. no high voltages, no bad connections etc). I wanted to just verify the state of the drivers for a third time, and lo and behold, all of the drivers just worked. I suppose it is another case where electronics just need to be rebooted sometimes.
+Things I will do in the future:
+- Build a better looking (and square) frame for the robot.
+- Revisit the design for the cube holding arms.
+
+![IMG20231209183227](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/f4369732-3c46-4f83-89bd-a6e8892d3d2f)
+![IMG20231210135948](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/6e2e3a5c-6562-4962-8862-2669723b8302)
+![IMG20231210143127](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/eb7a7b13-5574-4a39-b34e-b68e915e4518)
+
