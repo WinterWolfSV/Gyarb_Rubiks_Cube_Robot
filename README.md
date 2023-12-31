@@ -155,3 +155,14 @@ Things I will do in the future:
 ![IMG20231210135948](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/6e2e3a5c-6562-4962-8862-2669723b8302)
 ![IMG20231210143127](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/eb7a7b13-5574-4a39-b34e-b68e915e4518)
 
+# 23 - 31 December 2023
+Time spent ~ 15 hours
+
+Over the last couple of days I have been working on getting version two of the frame designed and built. I have also upgraded my printer to use klipper firmware instead of marlin, meaning that I have a bunch new features like camera monotoring, input shaping and pressure advance. I can also monitor and print wirelessly from my room now. Back to version two of the robot. I have designed the bottom motor holder for the frame and have also gotten the base shape for the sides in place. This is a process that has taken multiple itterations as well as many hours to design and print. Some of the more final shapes will be attached below.
+What I am changing for version 2 are a bunch of things, but the main features are that one will be able to take the cube out with ease and put it in afterwards. I am also making it significantly smaller as well as making it a lot more visually pleasing. Previously, the frame was constructed of multiple repurposed wooden "beams", but this new version will be built purely from pla (the plastic I am printing with), metal rods that I stole from an old printer and a bunch of screws. I am also planning on making a simple app or program to scan the cube and process the required moves, but I want a fully working robot before I start development of this.
+
+![image](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/d52ea68a-af8a-4736-9864-04e0c90d7996)
+![image](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/56995281-5695-4473-a12f-61f36c4cb450)
+![image](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/32b1543d-49e9-4505-a469-be0531f9f9f0)
+
+
