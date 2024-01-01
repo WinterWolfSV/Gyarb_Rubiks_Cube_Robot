@@ -165,4 +165,13 @@ What I am changing for version 2 are a bunch of things, but the main features ar
 ![image](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/56995281-5695-4473-a12f-61f36c4cb450)
 ![image](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/32b1543d-49e9-4505-a469-be0531f9f9f0)
 
+# 1 January 2024
+Time spent ~ 7 hours
 
+I completed the frame for the robot today, meaning that all the motors have somewhere to sit and attach to the cube. The parts that the frame are built from are the following three. 1x bottom motor holder, 1x top motor holder and 4x side motor holders. These will all be attached below. I also went through 10+ prototypes to get all of this working correctly. One thing that didn't work out the way I expected it to in the end was the connection between the side mounts and the top mount for the motors. In an ideal world there would be a 3.5mm hole lining up for me to put a scew through, essentially anchoring everything together, but in reality they don't align and I don't have enough plastic to drill a new hole. This is fine though since the tolerances of the top mount are so perfect that it just sits there without the need for an anchoring point like a screw. I didn't run into any major issues today realted to the robot, but my printer needed some maintenence to function properly. All in all, not a big deal and it went fairly smooth. Tomorrow I will either work on the app to scan the cube, or on the wiring of the robot, although it shouldn't have changed since v1. I just had an idea as well. Since I am already building an app for this robot, I might as well just process everything on the phone and then send the moves to the robot over bluetooth. This will most likely be a pain to implement, but that is for future me to deal with. Regardless it would be cool, so I think I am going to do it.
+
+![bottom](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/35a085d0-5b7d-4c5a-a4b8-1ce07d9a2d14)
+![top](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/296fece0-0908-4c80-bbb1-5ad060807bd6)
+![side](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/928fdd18-3b21-477c-91a8-74b3323aad7b)
+![full](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/b2cac423-f7a8-40b6-872c-30db36fe3961)
+![prototypes](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/4d6be7fd-55f0-4d9d-bfe0-ccac54b14eab)
