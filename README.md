@@ -175,3 +175,14 @@ I completed the frame for the robot today, meaning that all the motors have some
 ![side](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/928fdd18-3b21-477c-91a8-74b3323aad7b)
 ![full](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/b2cac423-f7a8-40b6-872c-30db36fe3961)
 ![prototypes](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/4d6be7fd-55f0-4d9d-bfe0-ccac54b14eab)
+
+
+# 2 January 2024
+Time spent ~ 4 hours
+
+Today I started the development of the app and I got some basic features working. The first thing I did was to get the camera library working and I can now take pictures and display them. It's not very impressive yet, but I will soon scan the different sides of the cube and use a libary 
+called [cuber](https://pub.dev/packages/cuber) to solve the cube for me. I'm not aiming for perfect, but rather fully working and good enough for this app.
+![image](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/fc233030-7d79-47b9-b3c1-246bdbf3b153)
+![image](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/8913e17b-a4d9-4c1e-8a17-ddb1c7f3ac6b)
+![image](https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/ae83eec7-032e-47b3-8768-0a72bcb5b173)
+
