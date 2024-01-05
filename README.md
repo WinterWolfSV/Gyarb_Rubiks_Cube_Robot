@@ -192,3 +192,11 @@ called [cuber" src="https://pub.dev/packages/cuber) to solve the cube for me. I'
 <img alt="image" src="https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/8913e17b-a4d9-4c1e-8a17-ddb1c7f3ac6b" width="400" /> ‎
 <img alt="image" src="https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/ae83eec7-032e-47b3-8768-0a72bcb5b173" width="400" /> ‎
 
+# 3-5 January 2024
+Time spent ~ 7 hours
+
+Over the past couple days I have been working on the app, I haven't had the motivation to document my process but today I felt it was time since I had a fairly major breakthrough. Today I got all the cube scanning, editing and solving done. In the current app you scan all 6 sides on the cube, and then you come to a screen where you can edit it in case the colors were picked up wrong given the current lighting, or if one side was gravely misaligned. Then a solution is generated for the current cube layout if it is valid, and if not, an error message is returned to the user of the app. 
+My next steps will be to give the app a nicer layout and round some scuffed edges. For example there is one screen in between the two on display, and that screen has been a sort of development screen per se, and has generated (non interactive) images based on the cube. I tried removing it, however, due to my bad coding and everything depending on each other in the screen, I couldn't just rip out the code I wanted and remove the screen, but I had to leave it in for now. This will obviously be fixed in a future version. I might look into adding bluetooth depending on how much time I want to spend on this before calling it a day. Additionally, I have noticed some issues with the motor drivers, but I will address all the software for the robot at a later point in time, and hopefully get it working then.
+
+<img alt="image" src="https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/2099a885-f692-42fb-ad58-0a306914c219" width="400" /> ‎
+<img alt="image" src="https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/887241f0-e6f0-4220-93c7-c6f7542169e6" width="400" /> ‎
