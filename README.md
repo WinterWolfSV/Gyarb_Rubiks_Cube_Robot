@@ -200,3 +200,14 @@ My next steps will be to give the app a nicer layout and round some scuffed edge
 
 <img alt="image" src="https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/2099a885-f692-42fb-ad58-0a306914c219" width="400" /> ‎
 <img alt="image" src="https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/887241f0-e6f0-4220-93c7-c6f7542169e6" width="400" /> ‎
+
+# 6 January 2024
+Time spent ~ 2 hours
+
+Today I toyed around with bluetooth on my pi pico. I got it working that I can send data from my phone to the pico over bluetooth low energy. The next step will be to send that data to my arduino over serial.
+
+# 7 January 2024
+Time spent ~ 2 hours
+
+I just had such a major breakthrough. I managed to get serial communication working from my pi pico to my arduino. It was a headache but in the end I realized that due to hardware limitations, the pins I used couldn't be used to recieve data. I switched the pin out and now it works perfectly!
+<img alt="image" src="https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/bb90f936-fe3d-4b91-bc50-3717e5a86074" width="400" /> ‎
