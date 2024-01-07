@@ -1,12 +1,12 @@
 import serial
 import time
 import cube_solver
-
+5
 # from rubik_solver import utils
 # cube = 'wowgybwyogygybyoggrowbrgywrborwggybrbwororbwborgowryby'
 # print(utils.solve(cube, 'Kociemba'))
 
-arduino = serial.Serial(port='COM3', baudrate=115200, timeout=.5)
+arduino = serial.Serial(port='COM6', baudrate=115200, timeout=.5)
 
 scamble = "R U R' U R U2 R' U"
 
@@ -26,4 +26,4 @@ while True:
     for move in moves:
         print(move)
         write_read(move)
-        time.sleep(0.5)
+        time.sleep(0.3)

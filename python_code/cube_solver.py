@@ -1,4 +1,4 @@
-speed = 250  # Speed for the motor to rotate in rpm
+speed = 100  # Speed for the motor to rotate in rpm
 
 cube_mapping = {
     "F": 0,
