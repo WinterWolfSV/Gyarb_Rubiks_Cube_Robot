@@ -10,9 +10,9 @@ https://github.com/WinterWolfSV/cube_scanner_flutter_app
 https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot
 
 ## Code used
-Somewhere in this github
+Somewhere in this github repository
 
-## STL files and step files
+## 3d models
 In the 3d folder
 
 
