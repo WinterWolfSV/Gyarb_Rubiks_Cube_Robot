@@ -4,7 +4,8 @@
 Time spent: ~30 minutes (picking the motors up from some place like 4 kilometers away because Amazon messed up my delivery address) \
 The stepper motors and their controllers arrived today.  
 
-<img src="https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/c44d2d92-518b-457b-926d-7901d46e1522" width="400" /> ‎
+<img src="https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot/assets/61477891/dd26158b-ce51-48fe-a8c9-dad1f1b6b902" width="400" />
+
 
 ## 30 August 2023
 
