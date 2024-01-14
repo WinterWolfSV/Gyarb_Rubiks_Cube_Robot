@@ -1,3 +1,21 @@
+# General information:
+
+## App download
+https://drive.google.com/file/d/1lDpYe297j5u2VejIVKeqJpAaV0GtnWWi/view
+
+## App source
+https://github.com/WinterWolfSV/cube_scanner_flutter_app
+
+## This repos link
+https://github.com/WinterWolfSV/Gyarb_Rubiks_Cube_Robot
+
+## Code used
+Somewhere in this github
+
+## STL files and step files
+In the 3d folder
+
+
 # Logbook:
 
 ## 29 August 2023
